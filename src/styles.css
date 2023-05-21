@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+.navbar {
+  padding-left: 40px;
+}
+.navbar-brand {
+  width: 50vw;
+}
+
+#heropg {
+  text-align: center;
+}
+#heropg .carousel {
+  height: 60vh;
+}
+#heropg img {
+  width: 100vw;
+  height: 55vh;
+}
+#heropg .carousel-item {
+  position: relative;
+}
+.ctxt {
+  position: absolute;
+}
+#ctxt1 {
+  font-size: 1.1rem;
+  width: 40vw;
+  top: 5%;
+  right: 5%;
+}
+#ctxt3 {
+  width: 30vw;
+  bottom: 10%;
+  left: 15%;
+  font-size: 1.1rem;
+}
+.ctxt button {
+  color: black;
+  background-color: #ffe6a7;
+  border: none;
+  font-size: 1rem;
+
+  border-radius: 3%;
+  width: 23vw;
+  height: 8vh;
+}
+
+.ft {
+  margin: 0px 0px;
+}
+.ft1 {
+  background-color: white;
+}
+.ft1 img {
+  height: 40vh;
+}
+
+.ft2 {
+  background-color: #ffe6a7;
+}
+.ft2 img {
+  height: 40vh;
+}
+.ft3 img {
+  height: 40vh;
+}
+
+.strip {
+  background-color: #003049;
+  color: white;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 15%;
+}
+.strip h1 {
+  margin-bottom: 10px;
+}
+.strip i {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.ftcard {
+  text-align: center;
+}
+
+.ftcard h2 {
+  font-family: "Cinzel", serif;
+}
+h1,
+h2 {
+  font-family: "Cinzel", serif;
+}
+
+#products {
+  padding: 3% 10%;
+  text-align: center;
+  background-color: #003049;
+}
+
+.productcards .card {
+  margin: 30px 10px;
+}
+.testimonial {
+  text-align: center;
+}
+.testimonial .carousel {
+  height: 40vh;
+}
+.testimonial p {
+  padding: 7% 15%;
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  width: 60%;
+}
+.testimonial h1 {
+  margin-top: 30px;
+}
+.cta {
+  background-color: #ffe6a7;
+  padding: 0% 15%;
+
+  text-align: center;
+  height: 30vh;
+}
+.cta h2 {
+  margin: 7% 0%;
+}
+.cta p {
+  margin: 7% 0% 0% 0%;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    width: 20vw;
+  }
+  .navbar-nav {
+    margin-left: 40%;
+  }
+  .nav-link {
+    font-size: 1.1rem;
+    margin: 0px 20px;
+  }
+  #heropg .carousel {
+    height: 80vh;
+  }
+  #heropg img {
+    width: 100vw;
+    height: 80vh;
+  }
+  .strip {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 15%;
+  }
+  .strip h1 {
+    margin-bottom: 60px;
+  }
+  .strip i {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .ft1 img {
+    height: 60vh;
+  }
+  .ft2 img {
+    height: 60vh;
+  }
+  .ft3 img {
+    height: 60vh;
+  }
+  .ftxt {
+    margin: 7% 0% 0% 0%;
+  }
+  #ctxt1 {
+    font-size: 2.2rem;
+    width: 50vw;
+    top: 5%;
+    right: 5%;
+  }
+  #ctxt3 {
+    font-size: 2.2rem;
+    width: 30vw;
+    bottom: 30%;
+    left: 15%;
+  }
+  .ctxt button {
+    margin: 10px 5px;
+  }
+  .cta p {
+    font-size: 2rem;
+    font-family: "Cinzel", serif;
+  }
+}
